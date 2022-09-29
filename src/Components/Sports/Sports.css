@@ -34,4 +34,16 @@
 }
 .seconds p{
     padding: 20px;
+    
+}
+
+.height-weight{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: antiquewhite;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.height-weight p{
+    margin: 5px 20px;
 }

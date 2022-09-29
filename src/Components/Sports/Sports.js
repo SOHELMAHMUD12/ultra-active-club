@@ -38,24 +38,41 @@ const Sports = () => {
             </div>
             <div className='cart-container bg-info'>
                   <div>
-                    <h4 className='p-4'>Sohel Mahmud</h4>
-                    <p className='p-4 mt-5'><small>Dhaka,Mohammadpur</small></p>
+                    <h4 className='p-2 ms-4'>Sohel Mahmud</h4>
+                    <p className='ms-4'><small>Dhaka,Mohammadpur</small></p>
                   </div>
-                  <div className='d-flex'>
-                   <p>75</p> <small>kg</small><br /><small>Weight</small>
-                    <p>6.5</p><br/>
-                        <small>Height</small>
-                    <p>25</p><small>Years</small><small>
-                        Age</small>
-                  </div>
+                <div className='height-weight'>
+
+                    <div>
+                        <p style={{fontWeight:700, fontSize:'20px'}}>80</p>
+                        <p>Weight</p>
+                    </div>
+                    <div>
+                        <p style={{fontWeight:700, fontSize:'20px'}}>5.9</p>
+                        <p>height</p>
+                    </div>
+                    <div>
+                        <p style={{fontWeight:700, fontSize:'20px'}}>30</p>
+                        <p>Age</p>
+                    </div>
+               </div>
+               
                   <div >
-                    <h4>Add A Break</h4>
-                    <div className='d-flex seconds'>
+                    <h4 className='ms-2 my-2'>Add A Break</h4>
+                    <div className='d-flex seconds rounded-circle'>
                     <p>10s</p>
-                    <p>20s</p>
+                    <p className='rounded-circle text-white'>20s</p>
                     <p>30s</p>
                     <p>40s</p>
                     <p>50s</p>
+                    </div>
+
+                    <div>
+                        <h2 className='ms-2 pb-1'>Exercise Details</h2>
+                        <h5 className='ms-2 pb-1'>Exercise Time</h5>
+                        <h5 className='ms-2 pb-1'>Break Time</h5>
+                       <button className='bg-danger border-0 p-2 my-3 w-75 ms-5'>Activity Completed</button>
+                
                     </div>
                   </div>
                    
