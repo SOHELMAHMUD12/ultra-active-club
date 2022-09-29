@@ -3,8 +3,8 @@
       "id": "1",
       "img": "https://bit.ly/3BMx1aS",
       "description":"A person who takes part or is skilled in some game or sport. a person who plays parts on the stage; an actor. ",
-      "name": "Dumble",
-      "time": "30s",
+      "name": "Mohsin",
+      "time": 20,
        "age": "20-25"
        
     },
@@ -12,8 +12,8 @@
       "id": "2",
       "img": "https://bit.ly/3UEztZA",
     "description":"A person who takes part or is skilled in some game or sport. a person who plays parts on the stage; an actor. ",
-      "name": "Dumble",
-      "time": "30s",
+      "name": "Nazmul",
+      "time": 40,
        "age": "20-25"
        
        
@@ -24,8 +24,8 @@
       "id": "3",
       "img": "https://bit.ly/3Cca6Gn",
       "description":"A person who takes part or is skilled in some game or sport. a person who plays parts on the stage; an actor.",
-      "name": "Dumble",
-      "time": "30s",
+      "name": "Hasan",
+      "time": 30,
        "age": "20-25"
        
        
@@ -35,8 +35,8 @@
       "id": "4",
       "img": "https://bit.ly/3SAbSHy",
       "description":"A person who takes part or is skilled in some game or sport. a person who plays parts on the stage; an actor.",
-      "name": "Dumble",
-      "time": "30s",
+      "name": "Sohel",
+      "time": 25,
        "age": "20-25"
        
        
@@ -46,8 +46,8 @@
        "id": "5",
       "img": "https://bit.ly/3rhicbm",
       "description":"A person who takes part or is skilled in some game or sport. a person who plays parts on the stage; an actor.",
-      "name": "Dumble",
-      "time": "30s",
+      "name": "Abrar",
+      "time": 30,
        "age": "20-25" 
        
     },
@@ -56,8 +56,8 @@
       "id": "6",
       "img": "https://bit.ly/3fq9LYG",
       "description":"A person who takes part or is skilled in some game or sport. a person who plays parts on the stage; an actor.",
-      "name": "Dumble",
-      "time": "30s",
+      "name": "Mabrur",
+      "time": 35,
        "age": "20-25"
        
        

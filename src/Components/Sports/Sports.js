@@ -3,6 +3,7 @@ import './Sports.css';
 import { useState } from 'react';
 import { FcSportsMode } from "react-icons/fc";
 import Player from '../Player/Player';
+import Cart from '../Cart/Cart';
 
 const Sports = () => {
         const [sports, setSports] = useState([])
@@ -26,17 +27,19 @@ const Sports = () => {
                 <h3>Select Today's Exercise</h3>
             </div>
         </div>
-
-        <div className='banner-container'>
+     <div className='player-cart-container'>
+       
             <div className='player-container'>
              {
                 sports.map(sport => <Player key={sport.id} sport={sport}></Player>)
              }
 
-            </div>
-            <div className='cart-container bg-info'>
-                  <div>
+        </div>
+            <div className='cart'>
+                <Cart></Cart>
+                  {/* <div>
                     <h4 className='p-2 ms-4'>Sohel Mahmud</h4>
+
                   </div>
                 <div className='height-weight'>
 
@@ -73,12 +76,16 @@ const Sports = () => {
                        <a className='ques-ans' href="question.html"><button className='bg-warning border-0 p-2 mb-2 w-75 ms-5'>Question Answered</button></a>
                 
                     </div>
-                  </div>
+                  </div>*/}
                    
             </div>
+
+
+        
+       
         </div>
-        </div>
-        </div>
+            </div> 
+        </div> 
     );
 };
 

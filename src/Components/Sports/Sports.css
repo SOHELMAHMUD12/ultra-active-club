@@ -20,7 +20,7 @@
 .player-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
+    gap: 40px;
     margin: 0px  50px;
 }
 
@@ -50,4 +50,10 @@
 
 .ques-ans {
     padding-bottom: 60px 0;
+}
+
+.player-cart-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 15px;
 }
