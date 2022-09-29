@@ -4,12 +4,14 @@ import './Player.css';
 
 const Player = ({sport}) => {
     // console.log(sport);
+
+     
     const {name, id, img, age, time, description} = sport;
 
     return (
-        <div className=''>
+        <div>
                
-              <div className='col-12 col-md-6 col-lg-4 all-data'>
+              <div>
               
 
 <Card style={{ width: '18rem' }}>
@@ -22,8 +24,10 @@ const Player = ({sport}) => {
         </Card.Text>
         <Card.Text>Time Required:{sport.time}
         </Card.Text>
-        <Button variant="primary">AddToList</Button>
+        <Button variant="primary">AddToList</Button> 
       </Card.Body>
+
+      
     </Card>
               </div>
         </div>
