@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, Card } from 'react-bootstrap';
 import './Player.css';
 
-const Player = ({sport}) => {
+const Player = ({sport,timeHandler}) => {
     // console.log(sport);
 
      
@@ -16,8 +16,10 @@ const Player = ({sport}) => {
             <p style={{margin: '5px'}}><span style={{fontWeight: 600}}>For Age:</span> <small style={{margin: "50px"}}>{age}</small></p>
             <p style={{margin: '5px'}}> <span style={{fontWeight: 600}}>Break Time:</span> <small style={{margin: "50px"}}>{time} m</small> </p>
             <div>
-            <button className='add-btn'>
-                <p>Add to list</p>
+            <button
+            onClick={()=>timeHandler(sport) }
+            className='add-btn'>
+                <p>Add to Cart</p>
             </button>
             </div>  
               {/* <div>

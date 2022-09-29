@@ -7,7 +7,8 @@ import Cart from '../Cart/Cart';
 
 const Sports = () => {
         const [sports, setSports] = useState([])
-    
+        const [carts, setCarts] = useState([])
+    console.log(carts)
     useEffect(()=> {
         fetch ('sports.json')
         .then(res => res.json())
@@ -16,6 +17,22 @@ const Sports = () => {
         })
 
     },[])
+
+    const timeHandler = (sport) =>{
+        let newCart = [];
+        const exits = carts.find(cart => cart.id === sport.id);
+        if(!exits){
+            newCart = [...carts, sport]
+        }
+        else{
+            newCart = carts;
+            alert('Alredy Listed')
+            return
+        }
+   
+        setCarts(newCart);
+    }
+    
     return (
 
         <div className=''>
@@ -31,12 +48,18 @@ const Sports = () => {
        
             <div className='player-container'>
              {
-                sports.map(sport => <Player key={sport.id} sport={sport}></Player>)
+                sports.map(sport => <Player 
+                    key={sport.id} 
+                    sport={sport}
+                    timeHandler = {timeHandler}
+                    ></Player>)
              }
 
         </div>
             <div className='cart'>
-                <Cart></Cart>
+                <Cart
+                sports = {carts}
+                ></Cart>
                   {/* <div>
                     <h4 className='p-2 ms-4'>Sohel Mahmud</h4>
 
