@@ -37,57 +37,30 @@ const Sports = () => {
 
             </div>
             <div className='cart-container bg-info'>
-                    <h1>asdahvs</h1>
-                    <h1>cdscsd</h1>
-                    <h1>dcsdc</h1>
-                    <h1>cdsc</h1>
-                    <h1>c vscsd</h1>
-                    <h1>dscs</h1>
-                    <h1>dfsf</h1>
-                    <h1>vdff</h1>
-                    <h1>fefc</h1>
-                    <h1>ewfwe</h1>
+                  <div>
+                    <h4 className='p-4'>Sohel Mahmud</h4>
+                    <p className='p-4 mt-5'><small>Dhaka,Mohammadpur</small></p>
+                  </div>
+                  <div className='d-flex'>
+                   <p>75</p> <small>kg</small><br /><small>Weight</small>
+                    <p>6.5</p><br/>
+                        <small>Height</small>
+                    <p>25</p><small>Years</small><small>
+                        Age</small>
+                  </div>
+                  <div >
+                    <h4>Add A Break</h4>
+                    <div className='d-flex seconds'>
+                    <p>10s</p>
+                    <p>20s</p>
+                    <p>30s</p>
+                    <p>40s</p>
+                    <p>50s</p>
+                    </div>
+                  </div>
+                   
             </div>
         </div>
-
-
-            
-        {/* <div className='row'>
-            <div className='col-8'>
-            <div className='row'>
-                <div className='col-12'>
-                <div className='icons-name mt-5'>
-            <FcSportsMode  className ='icon'/>
-            <div>
-            <h1 className='header-name'>Sports-Active-Club</h1>
-            {/* <button className='bg-primary border-0 p-2'>Blog</button> */}
-            {/* <h3>Select Today's Exercise</h3>
-            </div>
-        </div>
-                </div>
-                          
-            </div>
-
-            <div className='row bg-'>
-    
-            {
-    sports.map(sport => <Player key={sport.id} sport={sport}></Player>)
-       }
-
-<div className='col col-md-4 col-lg-4 '>
-              
-                </div> 
-            </div>
-            
-            </div>
-
-            <div className='col-4'>
-            <div className='bg-dark'>
-                <h1>lkldfs</h1>
-            </div>
-            </div>
-            
-        </div> */} 
         </div>
         </div>
     );
