@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question</title>
+</head>
+<body>
+
+    <div>
+        <h2>How React Works?</h2>
+ React is a popular JavaScript framewoek used for user interface development.Browser render engine recieves HTML file and CSS file then parse them and creates a DOM tree and a CSSOM tree. After DOM tree and CSSOM tree creating ,browser engine creates a Render tree which goes through a layout phase which decides where every element should be placed.So when we manupulate DOM everytime and change the data to the UI. Render tree re calculate the hole process again which is very inefficient. Here React uses Virtual DOM.When any state is changed Virtual DOM creates a replica of real DOM and compares through diff algorithm.
+     </div>
+     <div>
+         <h2>How useState Works?</h2>
+ useState is called React's hook. useState is a function itself when we call in our code it returns a variable to store data and a setter function to modify data of that variable under the hood. When we call useState it keeps e initial value and store it behind the scene. By calling it's setter function pass data through argument it simply compares the previous value and the new value. If any changes found it sets the new value to the variable, else it keep the previous data same.
+     </div>
+     <div>
+         <h2>Difference between Props and State</h2>
+       
+ <h4>State:</h4>
+ The state is an updatable structure that is used to contain data or information about the component and can change over time. The change in state can happen as a response to user action or system event. It is the heart of the react component which determines the behavior of the component and how it will render. A state must be kept as simple as possible. It represents the component's local state or information. It can only be accessed or modified inside the component or by the component directly.
+ 
+ <h4>Props:</h4>
+ Props are read-only components. It is an object which stores the value of attributes of a tag and work similar to the HTML attributes. It allows passing data from one component to other components. It is similar to function arguments and can be passed to the component the same way as arguments passed in a function. Props are immutable so we cannot modify the props from inside the component.
+     </div>
+
+</body>
+</html>

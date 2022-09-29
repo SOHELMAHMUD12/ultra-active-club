@@ -15,8 +15,6 @@ const Sports = () => {
         })
 
     },[])
-
-
     return (
 
         <div className=''>
@@ -72,6 +70,8 @@ const Sports = () => {
                         <h5 className='ms-2 pb-1'>Exercise Time</h5>
                         <h5 className='ms-2 pb-1'>Break Time</h5>
                        <button className='bg-danger border-0 p-2 my-3 w-75 ms-5'>Activity Completed</button>
+                       
+                       <a className='ques-ans' href="question.html"><button className='bg-warning border-0 p-2 mb-2 w-75 ms-5'>Question Answered</button></a>
                 
                     </div>
                   </div>
