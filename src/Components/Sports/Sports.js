@@ -11,7 +11,7 @@ const Sports = () => {
         fetch ('sports.json')
         .then(res => res.json())
         .then(data => {setSports(data)
-            console.log(data);
+            // console.log(data);
         })
 
     },[])
@@ -37,7 +37,6 @@ const Sports = () => {
             <div className='cart-container bg-info'>
                   <div>
                     <h4 className='p-2 ms-4'>Sohel Mahmud</h4>
-                    <p className='ms-4'><small>Dhaka,Mohammadpur</small></p>
                   </div>
                 <div className='height-weight'>
 
