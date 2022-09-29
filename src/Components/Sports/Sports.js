@@ -60,55 +60,14 @@ const Sports = () => {
                 <Cart
                 sports = {carts}
                 ></Cart>
-                  {/* <div>
-                    <h4 className='p-2 ms-4'>Sohel Mahmud</h4>
-
-                  </div>
-                <div className='height-weight'>
-
-                    <div>
-                        <p style={{fontWeight:700, fontSize:'20px'}}>80</p>
-                        <p>Weight</p>
-                    </div>
-                    <div>
-                        <p style={{fontWeight:700, fontSize:'20px'}}>5.9</p>
-                        <p>height</p>
-                    </div>
-                    <div>
-                        <p style={{fontWeight:700, fontSize:'20px'}}>30</p>
-                        <p>Age</p>
-                    </div>
-               </div>
-               
-                  <div >
-                    <h4 className='ms-2 my-2'>Add A Break</h4>
-                    <div className='d-flex seconds rounded-circle'>
-                    <p>10s</p>
-                    <p className='rounded-circle text-white'>20s</p>
-                    <p>30s</p>
-                    <p>40s</p>
-                    <p>50s</p>
-                    </div>
-
-                    <div>
-                        <h2 className='ms-2 pb-1'>Exercise Details</h2>
-                        <h5 className='ms-2 pb-1'>Exercise Time</h5>
-                        <h5 className='ms-2 pb-1'>Break Time</h5>
-                       <button className='bg-danger border-0 p-2 my-3 w-75 ms-5'>Activity Completed</button>
-                       
-                       <a className='ques-ans' href="question.html"><button className='bg-warning border-0 p-2 mb-2 w-75 ms-5'>Question Answered</button></a>
-                
-                    </div>
-                  </div>*/}
+                  
                    
             </div>
-
-
-        
        
         </div>
-            </div> 
-        </div> 
+    </div> 
+</div> 
+
     );
 };
 

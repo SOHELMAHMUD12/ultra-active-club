@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { addToDb } from '../../fakedb';
-import './Cart.css'
+import './Cart.css';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Cart = (props) => {
     const {sports} = props
@@ -13,6 +15,12 @@ const Cart = (props) => {
     const handleBreak = (breakTime) =>{
         setTimes(breakTime)
         addToDb(breakTime)
+    }
+
+    const notify = () =>{
+        toast.success('Exercise Successful!!!', {
+            position: "top-center",
+            });
     }
 
     return (
@@ -39,9 +47,7 @@ const Cart = (props) => {
                     <p>Age</p>
                 </div>
             </div>
-
-           
-
+            
             <div className='breaks'>
                 <h3 style={{marginTop: '25px', marginBottom:'0px'}}>Add a break</h3>
                 <div className='break'>
@@ -53,15 +59,18 @@ const Cart = (props) => {
             </div>
 
             <div className='details'>
-                <h3>Study Details</h3>
-                <p><span style={{fontWeight:'700', fontSize:'16px'}}>Study time:</span>  <small style={{marginLeft: '50px'}}> {time} minutes</small></p>
+                <h3>Exercise Details</h3>
+                <p><span style={{fontWeight:'700', fontSize:'16px'}}>Exercise time:</span>  <small style={{marginLeft: '50px'}}> {time} minutes</small></p>
                 <p><span style={{fontWeight:'700', fontSize:'16px'}}>Break Time:</span> <small style={{marginLeft: '50px'}}> {times} minutes</small> </p>
             </div>
 
             <div>
-                <button className='complete-btn'>
+                <button 
+                onClick={notify}
+                className='complete-btn'>
                     <p style={{margin: 'auto', padding: '8px' }}>Activity completed</p>
                 </button>
+                <ToastContainer></ToastContainer>
                 <a href="question.html"><button className='complete-btn'>
                <p style={{margin: 'auto', padding: '8px' }}>Question Answered</p></button>
                </a>

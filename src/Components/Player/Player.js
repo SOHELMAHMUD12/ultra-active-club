@@ -3,9 +3,7 @@ import { Button, Card } from 'react-bootstrap';
 import './Player.css';
 
 const Player = ({sport,timeHandler}) => {
-    // console.log(sport);
-
-     
+   
     const {name, id, img, age, time, description} = sport;
 
     return (
@@ -22,25 +20,6 @@ const Player = ({sport,timeHandler}) => {
                 <p>Add to Cart</p>
             </button>
             </div>  
-              {/* <div>
-              
-
-<Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={sport.img} />
-      <Card.Body>
-        <Card.Title>{sport.name}</Card.Title>
-        <Card.Text>{sport.description}
-        </Card.Text>
-        <Card.Text>For Age:{sport.age}
-        </Card.Text>
-        <Card.Text>Time Required:{sport.time}
-        </Card.Text>
-        <Button variant="primary">AddToList</Button> 
-      </Card.Body>
-
-      
-    </Card>
-              </div> */}
         </div>
     );
 };

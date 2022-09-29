@@ -26,7 +26,6 @@ const getStoreTime = () =>{
     return shoppingCart;
 }
 
-
 export {
     addToDb,
     getStoreTime

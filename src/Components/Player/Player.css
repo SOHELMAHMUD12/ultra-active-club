@@ -4,6 +4,7 @@
     border-radius: 5px;
 
 }
+
 .player{
     padding: 7px 7px;
     width: 270px;
@@ -11,10 +12,9 @@
     border: 1px solid rgb(149, 139, 139);
     border-radius: 5px;
     position: relative;
-    /* background-color: rgb(13, 13, 69); */
     margin: 0 auto;
-
 }
+
 .add-btn{
     position: absolute;
     bottom: 0;
@@ -24,6 +24,7 @@
     background-color: #00a8ff;
     border-radius: 0 0 5px 5px;
 }
+
 .add-btn p{
     padding: 5px;
     margin: auto;
