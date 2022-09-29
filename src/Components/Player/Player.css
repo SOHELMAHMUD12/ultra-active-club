@@ -1,5 +1,9 @@
-.player-container{
+.all-data{
     display: grid;
-    grid-template-columns: 4fr 1fr;
-    background-color: aqua;
-}
+    grid-template-columns: repeat(3,1fr);
+    
+} 
+
+
+
+  

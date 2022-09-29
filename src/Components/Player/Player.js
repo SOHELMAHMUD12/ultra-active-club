@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Card } from 'react-bootstrap';
-// import './Player.css';
+import './Player.css';
 
 const Player = ({sport}) => {
     // console.log(sport);
@@ -9,7 +9,7 @@ const Player = ({sport}) => {
     return (
         <div className=''>
                
-              <div className='col-12 col-md-6 col-lg-4'>
+              <div className='col-12 col-md-6 col-lg-4 all-data'>
               
 
 <Card style={{ width: '18rem' }}>
