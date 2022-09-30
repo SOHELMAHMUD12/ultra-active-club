@@ -26,7 +26,7 @@ const Sports = () => {
         }
         else{
             newCart = carts;
-            alert('Alredy Listed')
+            alert('Already Added')
             return
         }
    
@@ -54,16 +54,12 @@ const Sports = () => {
                     timeHandler = {timeHandler}
                     ></Player>)
              }
-
         </div>
             <div className='cart'>
                 <Cart
                 sports = {carts}
-                ></Cart>
-                  
-                   
+                ></Cart>            
             </div>
-       
         </div>
     </div> 
 </div> 

@@ -33,7 +33,7 @@ const Cart = (props) => {
                     <small>Dhaka, Bangladesh</small>
                 </div>
             </div>
-            <div className='weight-height'>
+            <div className='height-weight'>
                 <div>
                     <p style={{fontWeight: 700, fontSize: '20px'}}>75</p>
                     <p>Weight</p>
@@ -60,7 +60,7 @@ const Cart = (props) => {
 
             <div className='details'>
                 <h3>Exercise Details</h3>
-                <p><span style={{fontWeight:'700', fontSize:'16px'}}>Exercise time:</span>  <small style={{marginLeft: '50px'}}> {time} minutes</small></p>
+                <p><span style={{fontWeight:'700', fontSize:'16px'}}>Exercise Time:</span>  <small style={{marginLeft: '50px'}}> {time} minutes</small></p>
                 <p><span style={{fontWeight:'700', fontSize:'16px'}}>Break Time:</span> <small style={{marginLeft: '50px'}}> {times} minutes</small> </p>
             </div>
 

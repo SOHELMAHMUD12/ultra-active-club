@@ -2,6 +2,7 @@
     position: sticky;
     top: 0;
     padding: 10px 10px 0 10px;
+    background-color: gray;
 }
 .user{
     display: flex;
@@ -15,14 +16,14 @@
     margin-left: 10px;
     color: gray;
 }
-.weight-height{
+.height-weight{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     background-color: lightgray;
     border-radius: 5px;
     margin-top: 20px;
 }
-.weight-height p{
+.height-weight p{
     margin: 5px 20px;
 }
 .breaks{
@@ -48,7 +49,7 @@
 
 }
 .break p:hover{
-    background-color: #00a8ff;
+    background-color:cadetblue;
     transition:0.8s ease-in;
 }
 .details{
